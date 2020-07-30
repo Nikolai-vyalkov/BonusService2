@@ -1,9 +1,8 @@
 public class BonusMilesService{
-    public int calculate(int cost) {
-        int mile = 20;
+    public int calculate(int cost,int mile) {
         int bonus = cost/mile;
-        System.out.println(bonus);
-        return mile;
+
+        return bonus;
 
             }
 
